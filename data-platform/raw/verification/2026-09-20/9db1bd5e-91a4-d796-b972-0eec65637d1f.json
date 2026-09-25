@@ -1,0 +1,28 @@
+{
+  "event_id": "9db1bd5e-91a4-d796-b972-0eec65637d1f",
+  "event_type": "job_verification",
+  "event_source": "synthetic_generator",
+  "timestamp": "2026-09-20T16:55:52+00:00",
+  "event_timestamp": "2026-09-20T16:55:52+00:00",
+  "input_type": "text_only",
+  "user_agent_type": "web_desktop",
+  "processing_time_ms": 76.66,
+  "risk_score": 73,
+  "risk_level": "high",
+  "warning_count": 3,
+  "warning_codes": [
+    "PUBLIC_EMAIL_DOMAIN",
+    "WHATSAPP_ONLY",
+    "BANKING_INFO_REQUEST"
+  ],
+  "warning_categories": [
+    "Communication / Domain",
+    "Financial / Fee"
+  ],
+  "email_count": 1,
+  "phone_count": 1,
+  "url_count": 0,
+  "domain_count": 0,
+  "has_suspicious_domain": false,
+  "is_shortened_url": true
+}

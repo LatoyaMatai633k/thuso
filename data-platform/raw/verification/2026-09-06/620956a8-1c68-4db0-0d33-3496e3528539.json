@@ -1,0 +1,28 @@
+{
+  "event_id": "620956a8-1c68-4db0-0d33-3496e3528539",
+  "event_type": "job_verification",
+  "event_source": "synthetic_generator",
+  "timestamp": "2026-09-06T14:19:38+00:00",
+  "event_timestamp": "2026-09-06T14:19:38+00:00",
+  "input_type": "text_only",
+  "user_agent_type": "web_mobile",
+  "processing_time_ms": 129.57,
+  "risk_score": 49,
+  "risk_level": "medium",
+  "warning_count": 3,
+  "warning_codes": [
+    "WITHHELD_LOCATION",
+    "WHATSAPP_ONLY",
+    "PUBLIC_EMAIL_DOMAIN"
+  ],
+  "warning_categories": [
+    "Physical Safety",
+    "Communication / Domain"
+  ],
+  "email_count": 1,
+  "phone_count": 0,
+  "url_count": 1,
+  "domain_count": 1,
+  "has_suspicious_domain": false,
+  "is_shortened_url": false
+}

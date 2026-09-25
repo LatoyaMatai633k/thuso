@@ -1,0 +1,31 @@
+{
+  "event_id": "d701410d-3f4b-1a70-c074-718e425a609f",
+  "event_type": "job_verification",
+  "event_source": "synthetic_generator",
+  "timestamp": "2026-09-19T06:48:48+00:00",
+  "event_timestamp": "2026-09-19T06:48:48+00:00",
+  "input_type": "text_and_url",
+  "user_agent_type": "web_desktop",
+  "processing_time_ms": 98.57,
+  "risk_score": 98,
+  "risk_level": "high",
+  "warning_count": 5,
+  "warning_codes": [
+    "URL_SHORTENER",
+    "BRING_CASH",
+    "WITHHELD_LOCATION",
+    "PRIVATE_VENUE",
+    "ATTEND_ALONE"
+  ],
+  "warning_categories": [
+    "Communication / Domain",
+    "Financial / Fee",
+    "Physical Safety"
+  ],
+  "email_count": 1,
+  "phone_count": 0,
+  "url_count": 1,
+  "domain_count": 1,
+  "has_suspicious_domain": false,
+  "is_shortened_url": true
+}

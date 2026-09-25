@@ -1,0 +1,27 @@
+{
+  "event_id": "1375ee90-d6b3-61e4-3b6d-ca0d6fe5040b",
+  "event_type": "job_verification",
+  "event_source": "synthetic_generator",
+  "timestamp": "2026-09-12T09:24:01+00:00",
+  "event_timestamp": "2026-09-12T09:24:01+00:00",
+  "input_type": "text_only",
+  "user_agent_type": "web_tablet",
+  "processing_time_ms": 33.32,
+  "risk_score": 47,
+  "risk_level": "medium",
+  "warning_count": 2,
+  "warning_codes": [
+    "ATTEND_ALONE",
+    "SUSPICIOUS_TLD"
+  ],
+  "warning_categories": [
+    "Physical Safety",
+    "Communication / Domain"
+  ],
+  "email_count": 1,
+  "phone_count": 0,
+  "url_count": 0,
+  "domain_count": 0,
+  "has_suspicious_domain": true,
+  "is_shortened_url": false
+}

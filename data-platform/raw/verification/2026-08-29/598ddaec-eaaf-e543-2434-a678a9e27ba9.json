@@ -1,0 +1,27 @@
+{
+  "event_id": "598ddaec-eaaf-e543-2434-a678a9e27ba9",
+  "event_type": "job_verification",
+  "event_source": "synthetic_generator",
+  "timestamp": "2026-08-29T02:06:26+00:00",
+  "event_timestamp": "2026-08-29T02:06:26+00:00",
+  "input_type": "text_and_url",
+  "user_agent_type": "web_tablet",
+  "processing_time_ms": 37.63,
+  "risk_score": 42,
+  "risk_level": "medium",
+  "warning_count": 2,
+  "warning_codes": [
+    "BANKING_INFO_REQUEST",
+    "SUSPICIOUS_TLD"
+  ],
+  "warning_categories": [
+    "Financial / Fee",
+    "Communication / Domain"
+  ],
+  "email_count": 1,
+  "phone_count": 0,
+  "url_count": 1,
+  "domain_count": 1,
+  "has_suspicious_domain": true,
+  "is_shortened_url": true
+}

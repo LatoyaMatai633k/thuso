@@ -1,0 +1,29 @@
+{
+  "event_id": "6e76936a-a634-0d1a-adb6-10f4c65de86e",
+  "event_type": "job_verification",
+  "event_source": "synthetic_generator",
+  "timestamp": "2026-09-23T08:14:00+00:00",
+  "event_timestamp": "2026-09-23T08:14:00+00:00",
+  "input_type": "url_only",
+  "user_agent_type": "web_desktop",
+  "processing_time_ms": 164.03,
+  "risk_score": 55,
+  "risk_level": "medium",
+  "warning_count": 3,
+  "warning_codes": [
+    "PRIVATE_VENUE",
+    "PAYMENT_REQUEST",
+    "SUSPICIOUS_TLD"
+  ],
+  "warning_categories": [
+    "Physical Safety",
+    "Financial / Fee",
+    "Communication / Domain"
+  ],
+  "email_count": 1,
+  "phone_count": 0,
+  "url_count": 1,
+  "domain_count": 1,
+  "has_suspicious_domain": true,
+  "is_shortened_url": false
+}

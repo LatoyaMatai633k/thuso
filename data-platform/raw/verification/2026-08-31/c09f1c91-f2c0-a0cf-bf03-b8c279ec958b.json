@@ -1,0 +1,32 @@
+{
+  "event_id": "c09f1c91-f2c0-a0cf-bf03-b8c279ec958b",
+  "event_type": "job_verification",
+  "event_source": "synthetic_generator",
+  "timestamp": "2026-08-31T23:35:53+00:00",
+  "event_timestamp": "2026-08-31T23:35:53+00:00",
+  "input_type": "text_only",
+  "user_agent_type": "web_desktop",
+  "processing_time_ms": 98.82,
+  "risk_score": 86,
+  "risk_level": "high",
+  "warning_count": 6,
+  "warning_codes": [
+    "WHATSAPP_ONLY",
+    "PUBLIC_EMAIL_DOMAIN",
+    "BRING_CASH",
+    "GUARANTEED_JOB",
+    "URL_SHORTENER",
+    "URGENCY"
+  ],
+  "warning_categories": [
+    "Communication / Domain",
+    "Financial / Fee",
+    "General Deception"
+  ],
+  "email_count": 1,
+  "phone_count": 0,
+  "url_count": 1,
+  "domain_count": 1,
+  "has_suspicious_domain": true,
+  "is_shortened_url": true
+}

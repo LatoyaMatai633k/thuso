@@ -1,0 +1,13 @@
+{
+  "event_id": "4fe5c13b-a5e8-c198-3c10-316d3f63a065",
+  "event_type": "safe_journey",
+  "event_source": "synthetic_generator",
+  "timestamp": "2026-09-13T11:55:57+00:00",
+  "event_timestamp": "2026-09-13T11:55:57+00:00",
+  "journey_status": "completed",
+  "duration_minutes": 22,
+  "location_zone": "Pretoria North",
+  "emergency_trigger": false,
+  "trusted_contacts_notified": 3,
+  "check_in_count": 1
+}

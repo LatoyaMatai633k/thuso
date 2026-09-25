@@ -1,0 +1,25 @@
+{
+  "event_id": "84d99451-8f18-8e72-9696-dc6c671adde5",
+  "event_type": "job_verification",
+  "event_source": "synthetic_generator",
+  "timestamp": "invalid-date-format",
+  "event_timestamp": "invalid-date-format",
+  "input_type": "text_only",
+  "user_agent_type": "web_desktop",
+  "processing_time_ms": 129.91,
+  "risk_score": 13,
+  "risk_level": "low",
+  "warning_count": 1,
+  "warning_codes": [
+    "PAYMENT_REQUEST"
+  ],
+  "warning_categories": [
+    "Financial / Fee"
+  ],
+  "email_count": 1,
+  "phone_count": 1,
+  "url_count": 1,
+  "domain_count": 1,
+  "has_suspicious_domain": false,
+  "is_shortened_url": false
+}

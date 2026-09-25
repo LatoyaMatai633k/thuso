@@ -1,0 +1,27 @@
+{
+  "event_id": "d4a057a7-b0cc-1b3b-9793-b9b413748146",
+  "event_type": "job_verification",
+  "event_source": "synthetic_generator",
+  "timestamp": "2026-08-30T01:26:25+00:00",
+  "event_timestamp": "2026-08-30T01:26:25+00:00",
+  "input_type": "text_only",
+  "user_agent_type": "web_desktop",
+  "processing_time_ms": 135.83,
+  "risk_score": 35,
+  "risk_level": "medium",
+  "warning_count": 2,
+  "warning_codes": [
+    "PAYMENT_REQUEST",
+    "WITHHELD_LOCATION"
+  ],
+  "warning_categories": [
+    "Financial / Fee",
+    "Physical Safety"
+  ],
+  "email_count": 1,
+  "phone_count": 0,
+  "url_count": 0,
+  "domain_count": 0,
+  "has_suspicious_domain": false,
+  "is_shortened_url": false
+}

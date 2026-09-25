@@ -1,0 +1,28 @@
+{
+  "event_id": "2cb941fc-d02c-75f9-198d-13a40cd20e43",
+  "event_type": "job_verification",
+  "event_source": "synthetic_generator",
+  "timestamp": "2026-08-31T17:45:57+00:00",
+  "event_timestamp": "2026-08-31T17:45:57+00:00",
+  "input_type": "pasted_email",
+  "user_agent_type": "web_mobile",
+  "processing_time_ms": 65.94,
+  "risk_score": 92,
+  "risk_level": "high",
+  "warning_count": 3,
+  "warning_codes": [
+    "SUSPICIOUS_TLD",
+    "URL_SHORTENER",
+    "PAYMENT_REQUEST"
+  ],
+  "warning_categories": [
+    "Communication / Domain",
+    "Financial / Fee"
+  ],
+  "email_count": 1,
+  "phone_count": 1,
+  "url_count": 0,
+  "domain_count": 0,
+  "has_suspicious_domain": true,
+  "is_shortened_url": true
+}

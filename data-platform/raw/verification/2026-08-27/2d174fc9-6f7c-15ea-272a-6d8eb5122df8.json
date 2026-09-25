@@ -1,0 +1,25 @@
+{
+  "event_id": "2d174fc9-6f7c-15ea-272a-6d8eb5122df8",
+  "event_type": "job_verification",
+  "event_source": "synthetic_generator",
+  "timestamp": "2026-08-27T20:20:25+00:00",
+  "event_timestamp": "2026-08-27T20:20:25+00:00",
+  "input_type": "text_and_url",
+  "user_agent_type": "web_desktop",
+  "processing_time_ms": 153.45,
+  "risk_score": 40,
+  "risk_level": "medium",
+  "warning_count": 1,
+  "warning_codes": [
+    "ATTEND_ALONE"
+  ],
+  "warning_categories": [
+    "Physical Safety"
+  ],
+  "email_count": 1,
+  "phone_count": 0,
+  "url_count": 1,
+  "domain_count": 1,
+  "has_suspicious_domain": false,
+  "is_shortened_url": false
+}

@@ -1,0 +1,27 @@
+{
+  "event_id": "2cb37e23-9a94-0c6c-1c8e-806bbdce4d4d",
+  "event_type": "job_verification",
+  "event_source": "synthetic_generator",
+  "timestamp": "2026-09-07T15:55:01+00:00",
+  "event_timestamp": "2026-09-07T15:55:01+00:00",
+  "input_type": "text_only",
+  "user_agent_type": "web_desktop",
+  "processing_time_ms": 64.83,
+  "risk_score": 99,
+  "risk_level": "high",
+  "warning_count": 3,
+  "warning_codes": [
+    "BANKING_INFO_REQUEST",
+    "BRING_CASH",
+    "PAYMENT_REQUEST"
+  ],
+  "warning_categories": [
+    "Financial / Fee"
+  ],
+  "email_count": 1,
+  "phone_count": 0,
+  "url_count": 0,
+  "domain_count": 0,
+  "has_suspicious_domain": false,
+  "is_shortened_url": true
+}

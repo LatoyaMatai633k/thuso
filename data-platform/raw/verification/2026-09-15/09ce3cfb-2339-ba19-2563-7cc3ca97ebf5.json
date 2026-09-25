@@ -1,0 +1,33 @@
+{
+  "event_id": "09ce3cfb-2339-ba19-2563-7cc3ca97ebf5",
+  "event_type": "job_verification",
+  "event_source": "synthetic_generator",
+  "timestamp": "2026-09-15T09:36:07+00:00",
+  "event_timestamp": "2026-09-15T09:36:07+00:00",
+  "input_type": "pasted_email",
+  "user_agent_type": "web_desktop",
+  "processing_time_ms": 125.74,
+  "risk_score": 61,
+  "risk_level": "high",
+  "warning_count": 6,
+  "warning_codes": [
+    "RECRUITMENT_FEE",
+    "ATTEND_ALONE",
+    "PRIVATE_VENUE",
+    "URGENCY",
+    "WHATSAPP_ONLY",
+    "SUSPICIOUS_TLD"
+  ],
+  "warning_categories": [
+    "Financial / Fee",
+    "Physical Safety",
+    "General Deception",
+    "Communication / Domain"
+  ],
+  "email_count": 1,
+  "phone_count": 1,
+  "url_count": 0,
+  "domain_count": 0,
+  "has_suspicious_domain": true,
+  "is_shortened_url": false
+}

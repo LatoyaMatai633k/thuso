@@ -1,0 +1,25 @@
+{
+  "event_id": "fa4e8355-f5e8-a7e1-5a58-9b676bc7b635",
+  "event_type": "job_verification",
+  "event_source": "synthetic_generator",
+  "timestamp": "2026-09-21T15:18:57+00:00",
+  "event_timestamp": "2026-09-21T15:18:57+00:00",
+  "input_type": "text_and_url",
+  "user_agent_type": "web_desktop",
+  "processing_time_ms": 138.74,
+  "risk_score": 1,
+  "risk_level": "low",
+  "warning_count": 1,
+  "warning_codes": [
+    "PRIVATE_VENUE"
+  ],
+  "warning_categories": [
+    "Physical Safety"
+  ],
+  "email_count": 0,
+  "phone_count": 1,
+  "url_count": 1,
+  "domain_count": 1,
+  "has_suspicious_domain": false,
+  "is_shortened_url": false
+}

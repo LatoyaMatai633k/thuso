@@ -1,0 +1,31 @@
+{
+  "event_id": "d06d3943-c8b3-815e-7664-704355c9bf0f",
+  "event_type": "job_verification",
+  "event_source": "synthetic_generator",
+  "timestamp": "2026-08-25T21:55:27+00:00",
+  "event_timestamp": "2026-08-25T21:55:27+00:00",
+  "input_type": "url_only",
+  "user_agent_type": "web_desktop",
+  "processing_time_ms": 108.23,
+  "risk_score": 72,
+  "risk_level": "high",
+  "warning_count": 5,
+  "warning_codes": [
+    "URGENCY",
+    "PUBLIC_EMAIL_DOMAIN",
+    "BRING_CASH",
+    "SUSPICIOUS_TLD",
+    "RECRUITMENT_FEE"
+  ],
+  "warning_categories": [
+    "General Deception",
+    "Communication / Domain",
+    "Financial / Fee"
+  ],
+  "email_count": 1,
+  "phone_count": 0,
+  "url_count": 1,
+  "domain_count": 1,
+  "has_suspicious_domain": true,
+  "is_shortened_url": false
+}

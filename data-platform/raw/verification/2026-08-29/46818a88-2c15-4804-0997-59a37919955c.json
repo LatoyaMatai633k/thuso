@@ -1,0 +1,29 @@
+{
+  "event_id": "46818a88-2c15-4804-0997-59a37919955c",
+  "event_type": "job_verification",
+  "event_source": "synthetic_generator",
+  "timestamp": "2026-08-29T08:44:46+00:00",
+  "event_timestamp": "2026-08-29T08:44:46+00:00",
+  "input_type": "text_and_url",
+  "user_agent_type": "web_mobile",
+  "processing_time_ms": 113.66,
+  "risk_score": 96,
+  "risk_level": "high",
+  "warning_count": 3,
+  "warning_codes": [
+    "URL_SHORTENER",
+    "BANKING_INFO_REQUEST",
+    "PRIVATE_VENUE"
+  ],
+  "warning_categories": [
+    "Communication / Domain",
+    "Financial / Fee",
+    "Physical Safety"
+  ],
+  "email_count": 1,
+  "phone_count": 1,
+  "url_count": 1,
+  "domain_count": 1,
+  "has_suspicious_domain": false,
+  "is_shortened_url": true
+}

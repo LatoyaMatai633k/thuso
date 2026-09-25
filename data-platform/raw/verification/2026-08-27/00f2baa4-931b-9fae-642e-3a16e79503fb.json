@@ -1,0 +1,26 @@
+{
+  "event_id": "00f2baa4-931b-9fae-642e-3a16e79503fb",
+  "event_type": "job_verification",
+  "event_source": "synthetic_generator",
+  "timestamp": "2026-08-27T22:02:10+00:00",
+  "event_timestamp": "2026-08-27T22:02:10+00:00",
+  "input_type": "text_only",
+  "user_agent_type": "web_mobile",
+  "processing_time_ms": 133.51,
+  "risk_score": 38,
+  "risk_level": "medium",
+  "warning_count": 2,
+  "warning_codes": [
+    "RECRUITMENT_FEE",
+    "BRING_CASH"
+  ],
+  "warning_categories": [
+    "Financial / Fee"
+  ],
+  "email_count": 1,
+  "phone_count": 0,
+  "url_count": 0,
+  "domain_count": 0,
+  "has_suspicious_domain": false,
+  "is_shortened_url": true
+}

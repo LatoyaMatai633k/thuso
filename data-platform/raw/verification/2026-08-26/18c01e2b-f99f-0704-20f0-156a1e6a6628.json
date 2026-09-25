@@ -1,0 +1,27 @@
+{
+  "event_id": "18c01e2b-f99f-0704-20f0-156a1e6a6628",
+  "event_type": "job_verification",
+  "event_source": "synthetic_generator",
+  "timestamp": "2026-08-26T23:36:10+00:00",
+  "event_timestamp": "2026-08-26T23:36:10+00:00",
+  "input_type": "text_only",
+  "user_agent_type": "web_desktop",
+  "processing_time_ms": 130.46,
+  "risk_score": 36,
+  "risk_level": "medium",
+  "warning_count": 2,
+  "warning_codes": [
+    "PRIVATE_VENUE",
+    "BANKING_INFO_REQUEST"
+  ],
+  "warning_categories": [
+    "Physical Safety",
+    "Financial / Fee"
+  ],
+  "email_count": 1,
+  "phone_count": 0,
+  "url_count": 0,
+  "domain_count": 0,
+  "has_suspicious_domain": false,
+  "is_shortened_url": false
+}

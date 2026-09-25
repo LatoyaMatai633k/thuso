@@ -1,0 +1,19 @@
+FROM python:3.11-slim
+
+WORKDIR /app
+
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    build-essential \
+    libpq-dev \
+    && rm -rf /var/lib/apt/lists/*
+
+COPY data-platform/requirements.txt /app/requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt
+
+COPY data-platform /app/data-platform
+
+EXPOSE 8501
+
+ENV PYTHONPATH=/app/data-platform
+
+CMD ["streamlit", "run", "data-platform/dashboard/app.py", "--server.port=8501", "--server.address=0.0.0.0"]

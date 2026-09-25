@@ -1,0 +1,21 @@
+{
+  "event_id": "e0688849-eec7-1a30-dfda-35b228b2bf21",
+  "event_type": "job_verification",
+  "event_source": "synthetic_generator",
+  "timestamp": "2026-09-15T19:27:05+00:00",
+  "event_timestamp": "2026-09-15T19:27:05+00:00",
+  "input_type": "text_only",
+  "user_agent_type": "web_tablet",
+  "processing_time_ms": 125.75,
+  "risk_score": 5,
+  "risk_level": "low",
+  "warning_count": 0,
+  "warning_codes": [],
+  "warning_categories": [],
+  "email_count": 1,
+  "phone_count": 0,
+  "url_count": 1,
+  "domain_count": 1,
+  "has_suspicious_domain": false,
+  "is_shortened_url": false
+}

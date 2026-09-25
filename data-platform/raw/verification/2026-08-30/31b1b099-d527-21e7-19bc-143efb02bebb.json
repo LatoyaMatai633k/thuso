@@ -1,0 +1,28 @@
+{
+  "event_id": "31b1b099-d527-21e7-19bc-143efb02bebb",
+  "event_type": "job_verification",
+  "event_source": "synthetic_generator",
+  "timestamp": "2026-08-30T07:17:28+00:00",
+  "event_timestamp": "2026-08-30T07:17:28+00:00",
+  "input_type": "text_and_url",
+  "user_agent_type": "web_desktop",
+  "processing_time_ms": 117.5,
+  "risk_score": 54,
+  "risk_level": "medium",
+  "warning_count": 3,
+  "warning_codes": [
+    "GUARANTEED_JOB",
+    "WHATSAPP_ONLY",
+    "SUSPICIOUS_TLD"
+  ],
+  "warning_categories": [
+    "General Deception",
+    "Communication / Domain"
+  ],
+  "email_count": 1,
+  "phone_count": 0,
+  "url_count": 1,
+  "domain_count": 1,
+  "has_suspicious_domain": true,
+  "is_shortened_url": false
+}

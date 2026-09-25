@@ -1,0 +1,29 @@
+{
+  "event_id": "889d4b76-775c-30b5-6173-0c4848769153",
+  "event_type": "job_verification",
+  "event_source": "synthetic_generator",
+  "timestamp": "2026-09-08T05:14:22+00:00",
+  "event_timestamp": "2026-09-08T05:14:22+00:00",
+  "input_type": "pasted_email",
+  "user_agent_type": "web_mobile",
+  "processing_time_ms": 74.85,
+  "risk_score": 60,
+  "risk_level": "high",
+  "warning_count": 4,
+  "warning_codes": [
+    "WHATSAPP_ONLY",
+    "SUSPICIOUS_TLD",
+    "PAYMENT_REQUEST",
+    "BRING_CASH"
+  ],
+  "warning_categories": [
+    "Communication / Domain",
+    "Financial / Fee"
+  ],
+  "email_count": 1,
+  "phone_count": 0,
+  "url_count": 0,
+  "domain_count": 0,
+  "has_suspicious_domain": true,
+  "is_shortened_url": true
+}

@@ -1,0 +1,33 @@
+{
+  "event_id": "6123fdf7-7656-af72-29d4-beef3eabedcb",
+  "event_type": "job_verification",
+  "event_source": "synthetic_generator",
+  "timestamp": "2026-08-28T08:57:51+00:00",
+  "event_timestamp": "2026-08-28T08:57:51+00:00",
+  "input_type": "text_only",
+  "user_agent_type": "web_mobile",
+  "processing_time_ms": 107.79,
+  "risk_score": 66,
+  "risk_level": "high",
+  "warning_count": 6,
+  "warning_codes": [
+    "BANKING_INFO_REQUEST",
+    "BRING_CASH",
+    "PUBLIC_EMAIL_DOMAIN",
+    "URGENCY",
+    "GUARANTEED_JOB",
+    "WITHHELD_LOCATION"
+  ],
+  "warning_categories": [
+    "Financial / Fee",
+    "Communication / Domain",
+    "General Deception",
+    "Physical Safety"
+  ],
+  "email_count": 1,
+  "phone_count": 0,
+  "url_count": 0,
+  "domain_count": 0,
+  "has_suspicious_domain": true,
+  "is_shortened_url": false
+}

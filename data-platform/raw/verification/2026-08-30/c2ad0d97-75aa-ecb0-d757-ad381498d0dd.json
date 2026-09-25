@@ -1,0 +1,27 @@
+{
+  "event_id": "c2ad0d97-75aa-ecb0-d757-ad381498d0dd",
+  "event_type": "job_verification",
+  "event_source": "synthetic_generator",
+  "timestamp": "2026-08-30T09:12:44+00:00",
+  "event_timestamp": "2026-08-30T09:12:44+00:00",
+  "input_type": "text_only",
+  "user_agent_type": "web_mobile",
+  "processing_time_ms": 173.94,
+  "risk_score": 41,
+  "risk_level": "medium",
+  "warning_count": 2,
+  "warning_codes": [
+    "PUBLIC_EMAIL_DOMAIN",
+    "BANKING_INFO_REQUEST"
+  ],
+  "warning_categories": [
+    "Communication / Domain",
+    "Financial / Fee"
+  ],
+  "email_count": 1,
+  "phone_count": 0,
+  "url_count": 1,
+  "domain_count": 1,
+  "has_suspicious_domain": false,
+  "is_shortened_url": false
+}

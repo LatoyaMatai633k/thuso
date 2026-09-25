@@ -1,0 +1,29 @@
+{
+  "event_id": "1d30d990-a21b-0307-82af-085c138d994c",
+  "event_type": "job_verification",
+  "event_source": "synthetic_generator",
+  "timestamp": "2026-09-15T20:03:06+00:00",
+  "event_timestamp": "2026-09-15T20:03:06+00:00",
+  "input_type": "text_only",
+  "user_agent_type": "web_desktop",
+  "processing_time_ms": 145.76,
+  "risk_score": 83,
+  "risk_level": "high",
+  "warning_count": 3,
+  "warning_codes": [
+    "ATTEND_ALONE",
+    "PAYMENT_REQUEST",
+    "WHATSAPP_ONLY"
+  ],
+  "warning_categories": [
+    "Physical Safety",
+    "Financial / Fee",
+    "Communication / Domain"
+  ],
+  "email_count": 1,
+  "phone_count": 1,
+  "url_count": 0,
+  "domain_count": 0,
+  "has_suspicious_domain": false,
+  "is_shortened_url": true
+}

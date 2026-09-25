@@ -1,0 +1,13 @@
+{
+  "event_id": "7394d796-51c4-243b-f07d-b671caea9ae5",
+  "event_type": "safe_journey",
+  "event_source": "synthetic_generator",
+  "timestamp": "2026-08-30T19:34:09+00:00",
+  "event_timestamp": "2026-08-30T19:34:09+00:00",
+  "journey_status": "alert_triggered",
+  "duration_minutes": 102,
+  "location_zone": "Gqeberha Metro",
+  "emergency_trigger": true,
+  "trusted_contacts_notified": 2,
+  "check_in_count": 5
+}

@@ -1,0 +1,27 @@
+{
+  "event_id": "97ae50f0-8a39-068b-cbed-e473e3ebf7c1",
+  "event_type": "job_verification",
+  "event_source": "synthetic_generator",
+  "timestamp": "invalid-date-format",
+  "event_timestamp": "invalid-date-format",
+  "input_type": "url_only",
+  "user_agent_type": "web_desktop",
+  "processing_time_ms": 28.63,
+  "risk_score": 47,
+  "risk_level": "medium",
+  "warning_count": 2,
+  "warning_codes": [
+    "WHATSAPP_ONLY",
+    "PAYMENT_REQUEST"
+  ],
+  "warning_categories": [
+    "Communication / Domain",
+    "Financial / Fee"
+  ],
+  "email_count": 1,
+  "phone_count": 1,
+  "url_count": 1,
+  "domain_count": 1,
+  "has_suspicious_domain": false,
+  "is_shortened_url": false
+}

@@ -1,0 +1,28 @@
+{
+  "event_id": "ebc2026f-af34-cf65-a193-c4b23c19e71d",
+  "event_type": "job_verification",
+  "event_source": "synthetic_generator",
+  "timestamp": "2026-09-12T19:06:05+00:00",
+  "event_timestamp": "2026-09-12T19:06:05+00:00",
+  "input_type": "url_only",
+  "user_agent_type": "web_mobile",
+  "processing_time_ms": 120.71,
+  "risk_score": 40,
+  "risk_level": "medium",
+  "warning_count": 3,
+  "warning_codes": [
+    "PRIVATE_VENUE",
+    "ATTEND_ALONE",
+    "URGENCY"
+  ],
+  "warning_categories": [
+    "Physical Safety",
+    "General Deception"
+  ],
+  "email_count": 1,
+  "phone_count": 1,
+  "url_count": 1,
+  "domain_count": 1,
+  "has_suspicious_domain": false,
+  "is_shortened_url": false
+}

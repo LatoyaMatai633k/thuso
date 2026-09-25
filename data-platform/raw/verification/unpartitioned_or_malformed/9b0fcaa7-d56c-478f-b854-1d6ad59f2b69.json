@@ -1,0 +1,29 @@
+{
+  "event_id": "9b0fcaa7-d56c-478f-b854-1d6ad59f2b69",
+  "event_type": "job_verification",
+  "event_source": "synthetic_generator",
+  "timestamp": "invalid-date-format",
+  "event_timestamp": "invalid-date-format",
+  "input_type": "text_only",
+  "user_agent_type": "web_desktop",
+  "processing_time_ms": 83.48,
+  "risk_score": 91,
+  "risk_level": "high",
+  "warning_count": 3,
+  "warning_codes": [
+    "PAYMENT_REQUEST",
+    "PRIVATE_VENUE",
+    "URGENCY"
+  ],
+  "warning_categories": [
+    "Financial / Fee",
+    "Physical Safety",
+    "General Deception"
+  ],
+  "email_count": 1,
+  "phone_count": 1,
+  "url_count": 0,
+  "domain_count": 0,
+  "has_suspicious_domain": true,
+  "is_shortened_url": false
+}

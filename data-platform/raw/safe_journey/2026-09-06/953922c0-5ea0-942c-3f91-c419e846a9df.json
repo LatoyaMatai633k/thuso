@@ -1,0 +1,13 @@
+{
+  "event_id": "953922c0-5ea0-942c-3f91-c419e846a9df",
+  "event_type": "safe_journey",
+  "event_source": "synthetic_generator",
+  "timestamp": "2026-09-06T05:01:06+00:00",
+  "event_timestamp": "2026-09-06T05:01:06+00:00",
+  "journey_status": "completed",
+  "duration_minutes": 94,
+  "location_zone": "Bloemfontein Central",
+  "emergency_trigger": false,
+  "trusted_contacts_notified": 3,
+  "check_in_count": 4
+}

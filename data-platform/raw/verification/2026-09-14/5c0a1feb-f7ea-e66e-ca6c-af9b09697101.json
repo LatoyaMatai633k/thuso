@@ -1,0 +1,27 @@
+{
+  "event_id": "5c0a1feb-f7ea-e66e-ca6c-af9b09697101",
+  "event_type": "job_verification",
+  "event_source": "synthetic_generator",
+  "timestamp": "2026-09-14T00:58:47+00:00",
+  "event_timestamp": "2026-09-14T00:58:47+00:00",
+  "input_type": "url_only",
+  "user_agent_type": "web_desktop",
+  "processing_time_ms": 89.84,
+  "risk_score": 32,
+  "risk_level": "medium",
+  "warning_count": 2,
+  "warning_codes": [
+    "WITHHELD_LOCATION",
+    "BRING_CASH"
+  ],
+  "warning_categories": [
+    "Physical Safety",
+    "Financial / Fee"
+  ],
+  "email_count": 1,
+  "phone_count": 0,
+  "url_count": 1,
+  "domain_count": 1,
+  "has_suspicious_domain": false,
+  "is_shortened_url": false
+}

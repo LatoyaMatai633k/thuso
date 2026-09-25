@@ -1,0 +1,32 @@
+{
+  "event_id": "4f45f6f7-88a6-13b4-a3b8-1f92a3c90c6a",
+  "event_type": "job_verification",
+  "event_source": "synthetic_generator",
+  "timestamp": "2026-09-16T04:19:11+00:00",
+  "event_timestamp": "2026-09-16T04:19:11+00:00",
+  "input_type": "url_only",
+  "user_agent_type": "web_desktop",
+  "processing_time_ms": 92.42,
+  "risk_score": 94,
+  "risk_level": "high",
+  "warning_count": 5,
+  "warning_codes": [
+    "PRIVATE_VENUE",
+    "BRING_CASH",
+    "GUARANTEED_JOB",
+    "URL_SHORTENER",
+    "PUBLIC_EMAIL_DOMAIN"
+  ],
+  "warning_categories": [
+    "Physical Safety",
+    "Financial / Fee",
+    "General Deception",
+    "Communication / Domain"
+  ],
+  "email_count": 1,
+  "phone_count": 0,
+  "url_count": 1,
+  "domain_count": 1,
+  "has_suspicious_domain": false,
+  "is_shortened_url": true
+}

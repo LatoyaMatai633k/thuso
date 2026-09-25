@@ -1,0 +1,28 @@
+{
+  "event_id": "ca6fbff8-564c-fbd2-bc92-fd81039b058c",
+  "event_type": "job_verification",
+  "event_source": "synthetic_generator",
+  "timestamp": "2026-09-19T20:59:27+00:00",
+  "event_timestamp": "2026-09-19T20:59:27+00:00",
+  "input_type": "text_and_url",
+  "user_agent_type": "web_desktop",
+  "processing_time_ms": 136.38,
+  "risk_score": 34,
+  "risk_level": "medium",
+  "warning_count": 3,
+  "warning_codes": [
+    "BRING_CASH",
+    "BANKING_INFO_REQUEST",
+    "WHATSAPP_ONLY"
+  ],
+  "warning_categories": [
+    "Financial / Fee",
+    "Communication / Domain"
+  ],
+  "email_count": 1,
+  "phone_count": 0,
+  "url_count": 1,
+  "domain_count": 1,
+  "has_suspicious_domain": false,
+  "is_shortened_url": false
+}

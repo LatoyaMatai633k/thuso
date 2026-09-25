@@ -1,0 +1,13 @@
+{
+  "event_id": "48f18eed-6703-7089-c78c-d2c36374ed14",
+  "event_type": "safe_journey",
+  "event_source": "synthetic_generator",
+  "timestamp": "2026-08-28T19:54:42+00:00",
+  "event_timestamp": "2026-08-28T19:54:42+00:00",
+  "journey_status": "completed",
+  "duration_minutes": 41,
+  "location_zone": "Durban Central",
+  "emergency_trigger": false,
+  "trusted_contacts_notified": 3,
+  "check_in_count": 2
+}

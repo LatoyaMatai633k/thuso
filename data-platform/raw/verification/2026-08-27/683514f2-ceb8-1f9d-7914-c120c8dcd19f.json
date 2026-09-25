@@ -1,0 +1,29 @@
+{
+  "event_id": "683514f2-ceb8-1f9d-7914-c120c8dcd19f",
+  "event_type": "job_verification",
+  "event_source": "synthetic_generator",
+  "timestamp": "2026-08-27T18:31:37+00:00",
+  "event_timestamp": "2026-08-27T18:31:37+00:00",
+  "input_type": "text_and_url",
+  "user_agent_type": "web_desktop",
+  "processing_time_ms": 98.26,
+  "risk_score": 81,
+  "risk_level": "high",
+  "warning_count": 3,
+  "warning_codes": [
+    "PRIVATE_VENUE",
+    "WHATSAPP_ONLY",
+    "BANKING_INFO_REQUEST"
+  ],
+  "warning_categories": [
+    "Physical Safety",
+    "Communication / Domain",
+    "Financial / Fee"
+  ],
+  "email_count": 1,
+  "phone_count": 1,
+  "url_count": 1,
+  "domain_count": 1,
+  "has_suspicious_domain": false,
+  "is_shortened_url": false
+}

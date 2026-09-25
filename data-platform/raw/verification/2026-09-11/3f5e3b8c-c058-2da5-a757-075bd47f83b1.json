@@ -1,0 +1,25 @@
+{
+  "event_id": "3f5e3b8c-c058-2da5-a757-075bd47f83b1",
+  "event_type": "job_verification",
+  "event_source": "synthetic_generator",
+  "timestamp": "2026-09-11T07:25:29+00:00",
+  "event_timestamp": "2026-09-11T07:25:29+00:00",
+  "input_type": "text_and_url",
+  "user_agent_type": "web_desktop",
+  "processing_time_ms": 40.87,
+  "risk_score": 54,
+  "risk_level": "medium",
+  "warning_count": 1,
+  "warning_codes": [
+    "URL_SHORTENER"
+  ],
+  "warning_categories": [
+    "Communication / Domain"
+  ],
+  "email_count": 1,
+  "phone_count": 0,
+  "url_count": 1,
+  "domain_count": 1,
+  "has_suspicious_domain": false,
+  "is_shortened_url": true
+}

@@ -1,0 +1,29 @@
+{
+  "event_id": "8a3c3b5e-801e-f1da-45b1-ed25f1533ae8",
+  "event_type": "job_verification",
+  "event_source": "synthetic_generator",
+  "timestamp": "2026-09-06T09:29:03+00:00",
+  "event_timestamp": "2026-09-06T09:29:03+00:00",
+  "input_type": "text_and_url",
+  "user_agent_type": "web_mobile",
+  "processing_time_ms": 133.46,
+  "risk_score": 64,
+  "risk_level": "high",
+  "warning_count": 3,
+  "warning_codes": [
+    "GUARANTEED_JOB",
+    "BANKING_INFO_REQUEST",
+    "WITHHELD_LOCATION"
+  ],
+  "warning_categories": [
+    "General Deception",
+    "Financial / Fee",
+    "Physical Safety"
+  ],
+  "email_count": 1,
+  "phone_count": 1,
+  "url_count": 1,
+  "domain_count": 1,
+  "has_suspicious_domain": true,
+  "is_shortened_url": false
+}

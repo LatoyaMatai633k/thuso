@@ -1,0 +1,29 @@
+{
+  "event_id": "07692583-9194-821e-e11b-f0d486379f04",
+  "event_type": "job_verification",
+  "event_source": "synthetic_generator",
+  "timestamp": "2026-09-13T06:23:16+00:00",
+  "event_timestamp": "2026-09-13T06:23:16+00:00",
+  "input_type": "text_and_url",
+  "user_agent_type": "web_desktop",
+  "processing_time_ms": 145.98,
+  "risk_score": 54,
+  "risk_level": "medium",
+  "warning_count": 3,
+  "warning_codes": [
+    "URGENCY",
+    "RECRUITMENT_FEE",
+    "PRIVATE_VENUE"
+  ],
+  "warning_categories": [
+    "General Deception",
+    "Financial / Fee",
+    "Physical Safety"
+  ],
+  "email_count": 1,
+  "phone_count": 0,
+  "url_count": 1,
+  "domain_count": 1,
+  "has_suspicious_domain": false,
+  "is_shortened_url": false
+}

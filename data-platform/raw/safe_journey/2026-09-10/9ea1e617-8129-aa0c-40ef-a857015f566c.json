@@ -1,0 +1,13 @@
+{
+  "event_id": "9ea1e617-8129-aa0c-40ef-a857015f566c",
+  "event_type": "safe_journey",
+  "event_source": "synthetic_generator",
+  "timestamp": "2026-09-10T16:47:28+00:00",
+  "event_timestamp": "2026-09-10T16:47:28+00:00",
+  "journey_status": "alert_triggered",
+  "duration_minutes": 100,
+  "location_zone": "Johannesburg Central",
+  "emergency_trigger": true,
+  "trusted_contacts_notified": 2,
+  "check_in_count": 5
+}

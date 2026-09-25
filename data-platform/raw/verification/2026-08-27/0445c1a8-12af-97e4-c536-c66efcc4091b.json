@@ -1,0 +1,26 @@
+{
+  "event_id": "0445c1a8-12af-97e4-c536-c66efcc4091b",
+  "event_type": "job_verification",
+  "event_source": "synthetic_generator",
+  "timestamp": "2026-08-27T22:44:05+00:00",
+  "event_timestamp": "2026-08-27T22:44:05+00:00",
+  "input_type": "text_only",
+  "user_agent_type": "web_mobile",
+  "processing_time_ms": 98.01,
+  "risk_score": 30,
+  "risk_level": "medium",
+  "warning_count": 2,
+  "warning_codes": [
+    "URGENCY",
+    "GUARANTEED_JOB"
+  ],
+  "warning_categories": [
+    "General Deception"
+  ],
+  "email_count": 1,
+  "phone_count": 1,
+  "url_count": 0,
+  "domain_count": 0,
+  "has_suspicious_domain": false,
+  "is_shortened_url": true
+}

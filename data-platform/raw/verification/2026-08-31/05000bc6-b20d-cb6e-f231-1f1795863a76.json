@@ -1,0 +1,27 @@
+{
+  "event_id": "05000bc6-b20d-cb6e-f231-1f1795863a76",
+  "event_type": "job_verification",
+  "event_source": "synthetic_generator",
+  "timestamp": "2026-08-31T22:01:51+00:00",
+  "event_timestamp": "2026-08-31T22:01:51+00:00",
+  "input_type": "url_only",
+  "user_agent_type": "web_desktop",
+  "processing_time_ms": 165.25,
+  "risk_score": 32,
+  "risk_level": "medium",
+  "warning_count": 2,
+  "warning_codes": [
+    "ATTEND_ALONE",
+    "URGENCY"
+  ],
+  "warning_categories": [
+    "Physical Safety",
+    "General Deception"
+  ],
+  "email_count": 1,
+  "phone_count": 1,
+  "url_count": 1,
+  "domain_count": 1,
+  "has_suspicious_domain": false,
+  "is_shortened_url": false
+}

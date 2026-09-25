@@ -1,0 +1,28 @@
+{
+  "event_id": "5844f9fc-114b-9547-c9dc-72b85b6a8102",
+  "event_type": "job_verification",
+  "event_source": "synthetic_generator",
+  "timestamp": "2026-09-19T00:54:13+00:00",
+  "event_timestamp": "2026-09-19T00:54:13+00:00",
+  "input_type": "text_and_url",
+  "user_agent_type": "web_desktop",
+  "processing_time_ms": 140.83,
+  "risk_score": 55,
+  "risk_level": "medium",
+  "warning_count": 3,
+  "warning_codes": [
+    "PRIVATE_VENUE",
+    "RECRUITMENT_FEE",
+    "ATTEND_ALONE"
+  ],
+  "warning_categories": [
+    "Physical Safety",
+    "Financial / Fee"
+  ],
+  "email_count": 1,
+  "phone_count": 1,
+  "url_count": 1,
+  "domain_count": 1,
+  "has_suspicious_domain": false,
+  "is_shortened_url": false
+}

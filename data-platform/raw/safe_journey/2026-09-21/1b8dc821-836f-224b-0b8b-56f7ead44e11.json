@@ -1,0 +1,13 @@
+{
+  "event_id": "1b8dc821-836f-224b-0b8b-56f7ead44e11",
+  "event_type": "safe_journey",
+  "event_source": "synthetic_generator",
+  "timestamp": "2026-09-21T02:23:31+00:00",
+  "event_timestamp": "2026-09-21T02:23:31+00:00",
+  "journey_status": "completed",
+  "duration_minutes": 85,
+  "location_zone": "Cape Town CBD",
+  "emergency_trigger": false,
+  "trusted_contacts_notified": 3,
+  "check_in_count": 4
+}

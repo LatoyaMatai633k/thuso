@@ -1,0 +1,29 @@
+{
+  "event_id": "48603b32-b4fb-0eb9-49c1-3de73b4206c5",
+  "event_type": "job_verification",
+  "event_source": "synthetic_generator",
+  "timestamp": "2026-09-03T14:05:25+00:00",
+  "event_timestamp": "2026-09-03T14:05:25+00:00",
+  "input_type": "text_only",
+  "user_agent_type": "web_desktop",
+  "processing_time_ms": 70.15,
+  "risk_score": 38,
+  "risk_level": "medium",
+  "warning_count": 3,
+  "warning_codes": [
+    "PAYMENT_REQUEST",
+    "GUARANTEED_JOB",
+    "WHATSAPP_ONLY"
+  ],
+  "warning_categories": [
+    "Financial / Fee",
+    "General Deception",
+    "Communication / Domain"
+  ],
+  "email_count": 1,
+  "phone_count": 1,
+  "url_count": 0,
+  "domain_count": 0,
+  "has_suspicious_domain": false,
+  "is_shortened_url": false
+}

@@ -1,0 +1,28 @@
+{
+  "event_id": "0d96feb3-4572-b385-9e32-f085b24f92b9",
+  "event_type": "job_verification",
+  "event_source": "synthetic_generator",
+  "timestamp": "2026-09-16T22:45:59+00:00",
+  "event_timestamp": "2026-09-16T22:45:59+00:00",
+  "input_type": "text_only",
+  "user_agent_type": "web_mobile",
+  "processing_time_ms": 56.11,
+  "risk_score": 34,
+  "risk_level": "medium",
+  "warning_count": 3,
+  "warning_codes": [
+    "SUSPICIOUS_TLD",
+    "PUBLIC_EMAIL_DOMAIN",
+    "RECRUITMENT_FEE"
+  ],
+  "warning_categories": [
+    "Communication / Domain",
+    "Financial / Fee"
+  ],
+  "email_count": 1,
+  "phone_count": 0,
+  "url_count": 0,
+  "domain_count": 0,
+  "has_suspicious_domain": true,
+  "is_shortened_url": true
+}

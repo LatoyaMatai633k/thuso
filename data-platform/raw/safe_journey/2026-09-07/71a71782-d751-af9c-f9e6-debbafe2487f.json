@@ -1,0 +1,13 @@
+{
+  "event_id": "71a71782-d751-af9c-f9e6-debbafe2487f",
+  "event_type": "safe_journey",
+  "event_source": "synthetic_generator",
+  "timestamp": "2026-09-07T06:25:52+00:00",
+  "event_timestamp": "2026-09-07T06:25:52+00:00",
+  "journey_status": "cancelled",
+  "duration_minutes": 91,
+  "location_zone": "Soweto West",
+  "emergency_trigger": false,
+  "trusted_contacts_notified": 1,
+  "check_in_count": 4
+}

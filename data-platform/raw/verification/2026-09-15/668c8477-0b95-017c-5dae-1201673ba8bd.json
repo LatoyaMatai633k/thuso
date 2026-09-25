@@ -1,0 +1,31 @@
+{
+  "event_id": "668c8477-0b95-017c-5dae-1201673ba8bd",
+  "event_type": "job_verification",
+  "event_source": "synthetic_generator",
+  "timestamp": "2026-09-15T16:42:44+00:00",
+  "event_timestamp": "2026-09-15T16:42:44+00:00",
+  "input_type": "text_only",
+  "user_agent_type": "web_desktop",
+  "processing_time_ms": 81.7,
+  "risk_score": 73,
+  "risk_level": "high",
+  "warning_count": 5,
+  "warning_codes": [
+    "RECRUITMENT_FEE",
+    "URL_SHORTENER",
+    "BANKING_INFO_REQUEST",
+    "BRING_CASH",
+    "WITHHELD_LOCATION"
+  ],
+  "warning_categories": [
+    "Financial / Fee",
+    "Communication / Domain",
+    "Physical Safety"
+  ],
+  "email_count": 1,
+  "phone_count": 1,
+  "url_count": 1,
+  "domain_count": 1,
+  "has_suspicious_domain": true,
+  "is_shortened_url": true
+}

@@ -1,0 +1,31 @@
+{
+  "event_type": "job_verification",
+  "event_source": "synthetic_generator",
+  "timestamp": "2026-09-17T08:36:27+00:00",
+  "event_timestamp": "2026-09-17T08:36:27+00:00",
+  "input_type": "text_only",
+  "user_agent_type": "web_desktop",
+  "processing_time_ms": 47.33,
+  "risk_score": 61,
+  "risk_level": "high",
+  "warning_count": 5,
+  "warning_codes": [
+    "ATTEND_ALONE",
+    "GUARANTEED_JOB",
+    "URL_SHORTENER",
+    "RECRUITMENT_FEE",
+    "PRIVATE_VENUE"
+  ],
+  "warning_categories": [
+    "Physical Safety",
+    "General Deception",
+    "Communication / Domain",
+    "Financial / Fee"
+  ],
+  "email_count": 1,
+  "phone_count": 1,
+  "url_count": 1,
+  "domain_count": 1,
+  "has_suspicious_domain": true,
+  "is_shortened_url": true
+}

@@ -1,0 +1,33 @@
+{
+  "event_id": "7e8adee7-0758-e201-561e-16d16105716b",
+  "event_type": "job_verification",
+  "event_source": "synthetic_generator",
+  "timestamp": "2026-09-18T19:52:44+00:00",
+  "event_timestamp": "2026-09-18T19:52:44+00:00",
+  "input_type": "text_and_url",
+  "user_agent_type": "web_desktop",
+  "processing_time_ms": 119.6,
+  "risk_score": 77,
+  "risk_level": "high",
+  "warning_count": 6,
+  "warning_codes": [
+    "BRING_CASH",
+    "ATTEND_ALONE",
+    "WITHHELD_LOCATION",
+    "BANKING_INFO_REQUEST",
+    "URGENCY",
+    "WHATSAPP_ONLY"
+  ],
+  "warning_categories": [
+    "Financial / Fee",
+    "Physical Safety",
+    "General Deception",
+    "Communication / Domain"
+  ],
+  "email_count": 1,
+  "phone_count": 0,
+  "url_count": 1,
+  "domain_count": 1,
+  "has_suspicious_domain": true,
+  "is_shortened_url": false
+}

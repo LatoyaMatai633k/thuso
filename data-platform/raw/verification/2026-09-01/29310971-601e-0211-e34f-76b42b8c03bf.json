@@ -1,0 +1,33 @@
+{
+  "event_id": "29310971-601e-0211-e34f-76b42b8c03bf",
+  "event_type": "job_verification",
+  "event_source": "synthetic_generator",
+  "timestamp": "2026-09-01T13:47:53+00:00",
+  "event_timestamp": "2026-09-01T13:47:53+00:00",
+  "input_type": "text_only",
+  "user_agent_type": "web_desktop",
+  "processing_time_ms": 36.5,
+  "risk_score": 91,
+  "risk_level": "high",
+  "warning_count": 6,
+  "warning_codes": [
+    "URGENCY",
+    "PRIVATE_VENUE",
+    "ATTEND_ALONE",
+    "PAYMENT_REQUEST",
+    "BRING_CASH",
+    "WHATSAPP_ONLY"
+  ],
+  "warning_categories": [
+    "General Deception",
+    "Physical Safety",
+    "Financial / Fee",
+    "Communication / Domain"
+  ],
+  "email_count": 1,
+  "phone_count": 0,
+  "url_count": 0,
+  "domain_count": 0,
+  "has_suspicious_domain": true,
+  "is_shortened_url": false
+}

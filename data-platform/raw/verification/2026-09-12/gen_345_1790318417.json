@@ -1,0 +1,32 @@
+{
+  "event_type": "job_verification",
+  "event_source": "synthetic_generator",
+  "timestamp": "2026-09-12T15:57:17+00:00",
+  "event_timestamp": "2026-09-12T15:57:17+00:00",
+  "input_type": "text_only",
+  "user_agent_type": "web_desktop",
+  "processing_time_ms": 134.2,
+  "risk_score": 97,
+  "risk_level": "high",
+  "warning_count": 6,
+  "warning_codes": [
+    "PUBLIC_EMAIL_DOMAIN",
+    "ATTEND_ALONE",
+    "BRING_CASH",
+    "URL_SHORTENER",
+    "SUSPICIOUS_TLD",
+    "GUARANTEED_JOB"
+  ],
+  "warning_categories": [
+    "Communication / Domain",
+    "Physical Safety",
+    "Financial / Fee",
+    "General Deception"
+  ],
+  "email_count": 1,
+  "phone_count": 0,
+  "url_count": 1,
+  "domain_count": 1,
+  "has_suspicious_domain": true,
+  "is_shortened_url": true
+}

@@ -1,0 +1,27 @@
+{
+  "event_id": "e671d582-7a9e-8394-bb4c-cb141cc0b764",
+  "event_type": "job_verification",
+  "event_source": "synthetic_generator",
+  "timestamp": "2026-09-09T13:58:11+00:00",
+  "event_timestamp": "2026-09-09T13:58:11+00:00",
+  "input_type": "text_and_url",
+  "user_agent_type": "web_mobile",
+  "processing_time_ms": 77.5,
+  "risk_score": 39,
+  "risk_level": "medium",
+  "warning_count": 2,
+  "warning_codes": [
+    "BANKING_INFO_REQUEST",
+    "WITHHELD_LOCATION"
+  ],
+  "warning_categories": [
+    "Financial / Fee",
+    "Physical Safety"
+  ],
+  "email_count": 1,
+  "phone_count": 0,
+  "url_count": 1,
+  "domain_count": 1,
+  "has_suspicious_domain": false,
+  "is_shortened_url": false
+}

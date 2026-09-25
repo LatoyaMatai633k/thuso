@@ -1,0 +1,27 @@
+{
+  "event_id": "309a083a-0c9e-a060-f66c-7331a1722ee3",
+  "event_type": "job_verification",
+  "event_source": "synthetic_generator",
+  "timestamp": "2026-08-26T08:52:10+00:00",
+  "event_timestamp": "2026-08-26T08:52:10+00:00",
+  "input_type": "url_only",
+  "user_agent_type": "web_desktop",
+  "processing_time_ms": 105.0,
+  "risk_score": 44,
+  "risk_level": "medium",
+  "warning_count": 2,
+  "warning_codes": [
+    "RECRUITMENT_FEE",
+    "WHATSAPP_ONLY"
+  ],
+  "warning_categories": [
+    "Financial / Fee",
+    "Communication / Domain"
+  ],
+  "email_count": 1,
+  "phone_count": 0,
+  "url_count": 1,
+  "domain_count": 1,
+  "has_suspicious_domain": false,
+  "is_shortened_url": false
+}

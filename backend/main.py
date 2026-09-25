@@ -276,7 +276,37 @@ def health():
 
 @app.post("/api/verify")
 def verify_job(request: JobCheckRequest):
-    return analyse_job(
+    import time
+    t0 = time.perf_counter()
+    result = analyse_job(
         text=request.text,
         supplied_url=request.url,
     )
+    elapsed_ms = round((time.perf_counter() - t0) * 1000.0, 2)
+
+    # Lightweight Data Platform Telemetry Hook (Privacy-Safe & Non-Blocking)
+    try:
+        import sys
+        from pathlib import Path
+        platform_dir = Path(__file__).resolve().parent.parent / "data-platform"
+        if platform_dir.exists():
+            if str(platform_dir) not in sys.path:
+                sys.path.insert(0, str(platform_dir))
+            from ingestion.event_emitter import create_verification_event
+            from ingestion.ingest import ingest_single_event
+
+            input_type = "text_and_url" if (request.text and request.url) else ("url_only" if request.url else "text_only")
+            event = create_verification_event(
+                analysis_result=result,
+                input_type=input_type,
+                processing_time_ms=elapsed_ms,
+                event_source="app_live_api",
+            )
+            ingest_single_event(event, domain="verification")
+    except Exception:
+        # Guarantee that telemetry logging never interferes with or breaks user verification
+        pass
+
+    return result
+
+

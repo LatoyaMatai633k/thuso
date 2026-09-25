@@ -1,0 +1,13 @@
+{
+  "event_id": "f88fa199-ccbc-bf4b-78ea-47e2cbc4dd42",
+  "event_type": "safe_journey",
+  "event_source": "synthetic_generator",
+  "timestamp": "2026-09-12T10:48:55+00:00",
+  "event_timestamp": "2026-09-12T10:48:55+00:00",
+  "journey_status": "cancelled",
+  "duration_minutes": 101,
+  "location_zone": "Sandton Central",
+  "emergency_trigger": false,
+  "trusted_contacts_notified": 1,
+  "check_in_count": 5
+}

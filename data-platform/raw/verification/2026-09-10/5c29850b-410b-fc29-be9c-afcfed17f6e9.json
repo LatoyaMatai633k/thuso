@@ -1,0 +1,31 @@
+{
+  "event_id": "5c29850b-410b-fc29-be9c-afcfed17f6e9",
+  "event_type": "job_verification",
+  "event_source": "synthetic_generator",
+  "timestamp": "2026-09-10T14:29:14+00:00",
+  "event_timestamp": "2026-09-10T14:29:14+00:00",
+  "input_type": "url_only",
+  "user_agent_type": "web_mobile",
+  "processing_time_ms": 143.68,
+  "risk_score": 95,
+  "risk_level": "high",
+  "warning_count": 5,
+  "warning_codes": [
+    "URGENCY",
+    "ATTEND_ALONE",
+    "PUBLIC_EMAIL_DOMAIN",
+    "SUSPICIOUS_TLD",
+    "URL_SHORTENER"
+  ],
+  "warning_categories": [
+    "General Deception",
+    "Physical Safety",
+    "Communication / Domain"
+  ],
+  "email_count": 1,
+  "phone_count": 1,
+  "url_count": 1,
+  "domain_count": 1,
+  "has_suspicious_domain": true,
+  "is_shortened_url": true
+}

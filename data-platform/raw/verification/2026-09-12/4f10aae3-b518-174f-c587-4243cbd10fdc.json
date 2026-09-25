@@ -1,0 +1,25 @@
+{
+  "event_id": "4f10aae3-b518-174f-c587-4243cbd10fdc",
+  "event_type": "job_verification",
+  "event_source": "synthetic_generator",
+  "timestamp": "2026-09-12T16:40:15+00:00",
+  "event_timestamp": "2026-09-12T16:40:15+00:00",
+  "input_type": "text_and_url",
+  "user_agent_type": "web_mobile",
+  "processing_time_ms": 113.66,
+  "risk_score": 999,
+  "risk_level": "low",
+  "warning_count": 1,
+  "warning_codes": [
+    "BRING_CASH"
+  ],
+  "warning_categories": [
+    "Financial / Fee"
+  ],
+  "email_count": 0,
+  "phone_count": 0,
+  "url_count": 1,
+  "domain_count": 1,
+  "has_suspicious_domain": false,
+  "is_shortened_url": false
+}

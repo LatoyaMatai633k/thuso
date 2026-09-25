@@ -1,0 +1,25 @@
+{
+  "event_id": "3799a376-7e5b-3ac9-03c5-01fe269334ef",
+  "event_type": "job_verification",
+  "event_source": "synthetic_generator",
+  "timestamp": "2026-09-09T01:34:37+00:00",
+  "event_timestamp": "2026-09-09T01:34:37+00:00",
+  "input_type": "text_only",
+  "user_agent_type": "web_desktop",
+  "processing_time_ms": 61.09,
+  "risk_score": 1,
+  "risk_level": "low",
+  "warning_count": 1,
+  "warning_codes": [
+    "RECRUITMENT_FEE"
+  ],
+  "warning_categories": [
+    "Financial / Fee"
+  ],
+  "email_count": 1,
+  "phone_count": 0,
+  "url_count": 0,
+  "domain_count": 0,
+  "has_suspicious_domain": false,
+  "is_shortened_url": false
+}
