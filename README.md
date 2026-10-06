@@ -165,7 +165,7 @@ docker compose up --build
 
 **Synthetic data is 100% deterministic** — same `seed` + same parameters + same `DETERMINISTIC_BASE_TIME` = identical dataset every run.
 
-**My WeThinkCode_ codefor my data engineering elecive is (WTC-XWC8TYK8)**
+**My WeThinkCode_ codefor my data engineering elecive project is (WTC-XWC8TYK8)**
 
 **https://youtu.be/0xS6FR-Uovs?si=JCh-yw6UQY9efC_3
 This Link is for my project please watch it**
