@@ -217,5 +217,9 @@ FRESHNESS_THRESHOLD_HOURS=48 python data-platform/scripts/run_pipeline.py
    - Safe Journey regional telemetry (synthetic data — labelled clearly)
    - Data Quality & Audit tab with separated raw quality / warehouse integrity panels
 
----
-# YouTube Video to be Submitted Later
+----
+ 
+# YouTube Video Link: [https://youtu.be/0xS6FR-Uovs?si=JCh-yw6UQY9efC_3](https://youtu.be/0xS6FR-Uovs?si=JCh-yw6UQY9efC_3) 
+
+
+**WTC-XWC8TYK8 refence code**
