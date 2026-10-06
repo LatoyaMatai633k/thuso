@@ -164,3 +164,8 @@ docker compose up --build
 **Safe Journey historical analytics** uses **privacy-safe synthetic data**. The Safe Journey feature stores session state client-side in the browser and does not transmit user journey data to the backend, which is correct from a privacy standpoint. The synthetic dataset is used to demonstrate the analytical pipeline without collecting real user location data. This is clearly labelled in the dashboard.
 
 **Synthetic data is 100% deterministic** — same `seed` + same parameters + same `DETERMINISTIC_BASE_TIME` = identical dataset every run.
+
+**My WeThinkCode_ codefor my data engineering elecive is (WTC-XWC8TYK8)**
+
+**https://youtu.be/0xS6FR-Uovs?si=JCh-yw6UQY9efC_3
+This Link is for my project please watch it**
